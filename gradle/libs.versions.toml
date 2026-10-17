@@ -1,0 +1,555 @@
+[versions]
+# Jetbrains
+aqeldevkotlinVersion = "1.0.1"
+coreVersion = "3.5.4"
+disklrucacheVersion = "2.0.2"
+kotlinVersion = "2.3.21"
+kotlinCompilerExtensionVersion = "1.5.15"
+kotlinReflectVersion = "2.3.21"
+kotlinSerializationVersion = "2.3.21"
+kotlinxCollectionsImmutableVersion = "0.4.0"
+kotlinxCoroutinesAndroidVersion = "1.11.0"
+kotlinxCoroutinesCoreVersion = "1.11.0"
+kotlinxCoroutinesTestVersion = "1.11.0"
+kotlinxDatetimeVersion = "0.8.0"
+kotlinxSerializationJsonVersion = "1.11.0"
+
+# KSP
+kspVersion = "2.3.7"
+
+# Detekt
+detektVersion = "1.23.8"
+
+# Room
+lifecycleLivedataKtxVersion = "2.10.0"
+lifecycleServiceVersion = "2.10.0"
+media3ExoplayerVersion = "1.10.1"
+media3UiVersion = "1.10.1"
+mockkVersion = "1.14.9"
+moshiVersion = "1.15.2"
+multidexVersion = "2.0.1"
+roomVersion = "2.8.4"
+
+# Gradle
+androidGradlePluginVersion = "9.2.1"
+gradlePlugins-agpVersion = "8.7.1"
+
+# Build
+app-build-compileSDKVersion = "37"
+app-build-javaVersion = "VERSION_17"
+app-build-kotlinJVMTarget = "17"
+app-build-minimumSDK = "24"
+app-build-targetSDK = "37"
+
+# Versioning
+app-id = "com.awm.store"
+app-version-code = "56"
+app-version-name = "1.0.53"
+
+# General Android & Compose
+accompanistVersion = "0.37.3"
+accompanistNavigationAnimationVersion = "0.36.0"
+accompanistPagerVersion = "0.36.0"
+accompanistSystemuicontrollerVersion = "0.36.0"
+adapterRxjava2Version = "3.0.0"
+animationAndroidVersion = "1.8.2"
+androidActivityKtxVersion = "1.13.0"
+androidDesugarJdkLibsVersion = "2.1.5"
+androidAppCompatVersion = "1.7.1"
+androidConstraintLayoutComposeVersion = "1.1.1"
+androidDatabaseSqlcipherVersion = "4.6.1"
+annotationJvmVersion = "1.10.0"
+appUpdateKtxVersion = "2.1.0"
+androidxComposeBomVersion = "2026.05.01"
+androidxComposeMaterial3Version = "1.4.0"
+androidxCoreVersion = "1.18.0"
+androidxCoreSplashscreenVersion = "1.2.0"
+androidxDataStoreVersion = "1.2.1"
+androidxEspressoVersion = "3.7.0"
+androidxLifecycleVersion = "2.10.0"
+androidxPagingVersion = "3.5.0"
+androidxTestExtVersion = "1.3.0"
+androidxTracingVersion = "1.3.0"
+androidxTransitionVersion = "1.7.0"
+glanceVersion = "1.1.1"
+androidx-customViewVersion = "1.2.0"
+androidx-customViewPoolingVersion = "1.1.0"
+androidxVectorDrawableVersion = "1.2.0"
+balloonComposeVersion = "1.7.6"
+biometricVersion = "1.2.0-alpha05"
+chuckerVersion = "4.3.1"
+coilVersion = "3.4.0"
+coilComposeVersion = "2.7.0"
+compose-pluginVersion = "1.11.0"
+datastorePreferencesVersion = "1.1.0-alpha07"
+datastorePreferencesCoreVersion = "1.2.1"
+protobufVersion = "4.35.0"
+protobufPluginVersion = "0.10.0"
+enigmaVersion = "1.0.0.8"
+foundationAndroidVersion = "1.11.2"
+gsonVersion = "2.14.0"
+hiltVersion = "2.59.2"
+hiltAndroidxVersion = "1.3.0"
+hiltCommonVersion = "1.3.0"
+hiltNavigationComposeVersion = "1.3.0"
+hiltPluginVersion = "2.59.2"
+junit4Version = "4.13.2"
+leakcanaryAndroidVersion = "2.14"
+lifecycleCommonJvmVersion = "2.10.0"
+lifecycleProcessVersion = "2.10.0"
+lifecycleRuntimeAndroidVersion = "2.10.0"
+libphonenumberVersion = "9.0.2"
+lottieVersion = "6.7.1"
+mapsComposeVersion = "8.3.0"
+materialVersion = "1.13.0"
+material3Version = "1.4.0"
+moshiKotlinVersion = "1.15.2"
+nanohttpdVer = "2.3.1"
+navigationComposeVersion = "2.9.8"
+okhttpVersion = "5.3.2"
+okioVersion = "3.17.0"
+onesignalVersion = "5.1.35"
+picassoVersion = "2.8"
+preferenceKtxVersion = "1.2.1"
+retrofitVersion = "3.0.0"
+reviewKtxVersion = "2.0.2"
+runtimeAndroidVersion = "1.11.2"
+securityCryptoVersion = "1.1.0"
+securityCryptoDatastorePreferencesVersion = "1.1.1-beta03"
+paletteVersion = "1.0.0"
+shimmerVersion = "1.4.0"
+sqliteKtxVersion = "2.6.2"
+timberVersion = "5.0.1"
+timberktVersion = "1.5.1"
+tinkAndroidVersion = "1.21.0"
+uiVersion = "1.11.2"
+uiIconsVersion = "1.7.8"
+uiTextGoogleFontsVersion = "1.8.3"
+workRuntimeKtxVersion = "2.11.2"
+baselineProfileVersion = "1.5.0-alpha06"
+commonsIoVersion = "2.22.0"
+documentfileVersion = "1.1.0"
+ezVcardVersion = "0.12.2"
+exifinterfaceVersion = "1.4.2"
+glideComposeVersion = "1.0.0-beta09"
+glideVersion = "5.0.7"
+jodaTimeVersion = "2.14.2"
+patternLockViewVersion = "a90b0d4bf0"
+recyclerviewFastScrollerVersion = "5a95285b1f"
+reprintVersion = "2cb206415d"
+rtlViewpagerVersion = "2.0.2"
+swiperefreshlayoutVersion = "1.2.0"
+
+# Google Services & Ads
+adcolonySdkVersion = "4.8.0"
+facebookAdsVersion = "6.20.0.0"
+googleServicesVersion = "4.4.3"
+playServicesAdsVersion = "24.4.0"
+playServicesLocationVersion = "21.3.0"
+foundationLayoutVersion = "1.11.2"
+uiUnitVersion = "1.11.2"
+media3DatasourceOkhttpVersion = "1.10.1"
+zxingAndroidEmbeddedVersion = "4.3.0"
+hiltCommon = "1.3.0"
+connecttagVersion = "1.0.0"
+connecttagCommandVersion = "0.1.0"
+
+
+[libraries]
+accompanist-drawablepainter = { module = "com.google.accompanist:accompanist-drawablepainter", version.ref = "accompanistVersion" }
+accompanist-insets = { group = "com.google.accompanist", name = "accompanist-insets", version.ref = "accompanistPagerVersion" }
+accompanist-insets-ui = { module = "com.google.accompanist:accompanist-insets-ui", version.ref = "accompanistPagerVersion" }
+accompanist-navigation-animation = { group = "com.google.accompanist", name = "accompanist-navigation-animation", version.ref = "accompanistNavigationAnimationVersion" }
+accompanist-pager = { group = "com.google.accompanist", name = "accompanist-pager", version.ref = "accompanistPagerVersion" }
+accompanist-pager-indicators = { group = "com.google.accompanist", name = "accompanist-pager-indicators", version.ref = "accompanistPagerVersion" }
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanistVersion" }
+accompanist-placeholder = { group = "com.google.accompanist", name = "accompanist-placeholder-material", version.ref = "accompanistVersion" }
+accompanist-swiperefresh = { group = "com.google.accompanist", name = "accompanist-swiperefresh", version.ref = "accompanistVersion" }
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontrollerVersion" }
+android-database-sqlcipher = { module = "net.zetetic:android-database-sqlcipher", version = "4.5.4" }
+androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "androidActivityKtxVersion" }
+android-desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibsVersion" }
+androidx-annotation-jvm = { group = "androidx.annotation", name = "annotation-jvm", version.ref = "annotationJvmVersion" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidAppCompatVersion" }
+androidx-appcompat-resources = { module = "androidx.appcompat:appcompat-resources", version.ref = "androidAppCompatVersion" }
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometricVersion" }
+androidx-compose-activity = { group = "androidx.activity", name = "activity-compose", version = "1.13.0" }
+
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.13.0" }
+androidx-compose-animation-android = { group = "androidx.compose.animation", name = "animation-android", version = "1.10.5" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBomVersion" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "uiVersion" }
+androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "uiIconsVersion" }
+androidx-compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "uiIconsVersion" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3Version" }
+androidx-compose-material3-windowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class", version.ref = "androidxComposeMaterial3Version" }
+androidx-compose-material3-windowsize = { module = "androidx.compose.material3:material3-window-size-class" }
+androidx-compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationComposeVersion" }
+androidx-compose-paging = { group = "androidx.paging", name = "paging-compose", version.ref = "androidxPagingVersion" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "uiVersion" }
+androidx-compose-ui-gestures = { group = "androidx.compose.ui", name = "ui-gestures", version = "1.0.0" }
+androidx-compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "uiVersion" }
+androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version = "1.10.5" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.1" }
+androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "androidConstraintLayoutComposeVersion" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidxCoreSplashscreenVersion" }
+androidx-customView = { module = "androidx.customview:customview", version.ref = "androidx-customViewVersion" }
+androidx-customViewPooling = { module = "androidx.customview:customview-poolingcontainer", version.ref = "androidx-customViewPoolingVersion" }
+androidx-vectordrawable = { module = "androidx.vectordrawable:vectordrawable", version.ref = "androidxVectorDrawableVersion" }
+androidx-dataStore-core = { group = "androidx.datastore", name = "datastore-preferences-core", version.ref = "datastorePreferencesCoreVersion" }
+androidx-dataStore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "androidxDataStoreVersion" }
+androidx-datastore = { group = "androidx.datastore", name = "datastore", version.ref = "androidxDataStoreVersion" }
+androidx-documentfile = { module = "androidx.documentfile:documentfile", version.ref = "documentfileVersion" }
+protobuf-javalite = { group = "com.google.protobuf", name = "protobuf-javalite", version.ref = "protobufVersion" }
+protobuf-kotlin-lite = { group = "com.google.protobuf", name = "protobuf-kotlin-lite", version.ref = "protobufVersion" }
+androidx-foundation-android = { group = "androidx.compose.foundation", name = "foundation-android", version.ref = "foundationAndroidVersion" }
+androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "hiltAndroidxVersion" }
+androidx-hilt-lifecycle-viewmodel = { module = "androidx.hilt:hilt-lifecycle-viewmodel", version.ref = "hiltAndroidxVersion" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationComposeVersion" }
+androidx-hilt-work = { group = "androidx.hilt", name = "hilt-work", version.ref = "hiltCommonVersion" }
+androidx-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCoreVersion" }
+androidx-lifecycle-common-jvm = { group = "androidx.lifecycle", name = "lifecycle-common-jvm", version.ref = "lifecycleCommonJvmVersion" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtxVersion" }
+androidx-lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycleProcessVersion" }
+androidx-lifecycle-runtime-android = { group = "androidx.lifecycle", name = "lifecycle-runtime-android", version.ref = "lifecycleRuntimeAndroidVersion" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycleVersion" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidxLifecycleVersion" }
+androidx-lifecycle-service = { module = "androidx.lifecycle:lifecycle-service", version.ref = "lifecycleServiceVersion" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidxLifecycleVersion" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "androidxLifecycleVersion" }
+androidx-lifecycle-viewmodel-savedstate = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-savedstate", version.ref = "androidxLifecycleVersion" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3ExoplayerVersion" }
+androidx-media3-hls = { module = "androidx.media3:media3-exoplayer-hls", version.ref = "media3ExoplayerVersion" }
+androidx-media3-session = { module = "androidx.media3:media3-session", version.ref = "media3ExoplayerVersion" }
+androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3UiVersion" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidexVersion" }
+androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidxPagingVersion" }
+androidx-palette-ktx = { group = "androidx.palette", name = "palette-ktx", version.ref = "paletteVersion" }
+androidx-preference = { module = "androidx.palette:palette-ktx", version.ref = "paletteVersion" }
+androidx-preference-ktx = { group = "androidx.preference", name = "preference-ktx", version.ref = "preferenceKtxVersion" }
+androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroidVersion" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCryptoVersion" }
+androidx-sqlite-framework = { module = "androidx.sqlite:sqlite-framework", version.ref = "sqliteKtxVersion" }
+androidx-sqlite-ktx = { module = "androidx.sqlite:sqlite-ktx", version = "2.6.2" }
+androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspressoVersion" }
+androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtVersion" }
+androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", version.ref = "androidxTracingVersion" }
+androidx-tracing-tracing = { group = "androidx.tracing", name = "tracing", version.ref = "androidxTracingVersion" }
+androidx-transition-ktx = { group = "androidx.transition", name = "transition-ktx", version.ref = "androidxTransitionVersion" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workRuntimeKtxVersion" }
+androidx-glance = { group = "androidx.glance", name = "glance-appwidget", version.ref = "glanceVersion" }
+androidx-glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glanceVersion" }
+androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterfaceVersion" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayoutVersion" }
+androidx-benchmark-macro = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version.ref = "baselineProfileVersion" }
+androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version = "2.3.0" }
+aqeldev-kotlin-ui-compose = { module = "com.github.aqeldev:kotlin-ui-compose", version.ref = "aqeldevkotlinVersion" }
+aqeldev-kotlin-utilites = { module = "com.github.aqeldev:kotlin-utilites", version.ref = "aqeldevkotlinVersion" }
+balloon-compose = { group = "com.github.skydoves", name = "balloon-compose", version.ref = "balloonComposeVersion" }
+chucker = { group = "com.github.chuckerteam.chucker", name = "library", version.ref = "chuckerVersion" }
+chucker-no-op = { group = "com.github.chuckerteam.chucker", name = "library-no-op", version.ref = "chuckerVersion" }
+coil-gif = { module = "io.coil-kt.coil3:coil-gif", version.ref = "coilVersion" }
+coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilComposeVersion" }
+coil-svg = { module = "io.coil-kt.coil3:coil-svg", version.ref = "coilVersion" }
+coil-video = { module = "io.coil-kt.coil3:coil-video", version.ref = "coilVersion" }
+commons-io = { module = "commons-io:commons-io", version.ref = "commonsIoVersion" }
+ez-vcard = { module = "com.googlecode.ez-vcard:ez-vcard", version.ref = "ezVcardVersion" }
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "adapterRxjava2Version" }
+core = { module = "com.google.zxing:core", version.ref = "coreVersion" }
+disklrucache = { module = "com.jakewharton:disklrucache", version.ref = "disklrucacheVersion" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gsonVersion" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glideVersion" }
+glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideComposeVersion" }
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glideVersion" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltVersion" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hiltVersion" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hiltVersion" }
+javax-inject = { module = "javax.inject:javax.inject", version = "1" }
+jetbrains-kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlinReflectVersion" }
+joda-time = { module = "joda-time:joda-time", version.ref = "jodaTimeVersion" }
+junit4 = { group = "junit", name = "junit", version.ref = "junit4Version" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlinVersion" }
+kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinxCollectionsImmutableVersion" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroidVersion" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCoreVersion" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTestVersion" }
+detekt-formatting = { group = "io.gitlab.arturbosch.detekt", name = "detekt-formatting", version.ref = "detektVersion" }
+kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinxDatetimeVersion" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinxSerializationJsonVersion" }
+leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanaryAndroidVersion" }
+lottie-compose = { group = "com.airbnb.android", name = "lottie-compose", version.ref = "lottieVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+pattern-lock-view = { module = "com.github.aritraroy:patternLockView", version.ref = "patternLockViewVersion" }
+recyclerview-fastscroller = { module = "com.github.tibbi:RecyclerView-FastScroller", version.ref = "recyclerviewFastScrollerVersion" }
+reprint = { module = "com.github.tibbi:reprint", version.ref = "reprintVersion" }
+rtl-viewpager = { module = "com.github.naveensingh:rtl-viewpager", version.ref = "rtlViewpagerVersion" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockkVersion" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshiVersion" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlinVersion" }
+nanohttpd = { module = "org.nanohttpd:nanohttpd", version.ref = "nanohttpdVer" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttpVersion" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttpVersion" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okioVersion" }
+retrofit-core = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitVersion" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+room-paging = { module = "androidx.room:room-paging", version.ref = "roomVersion" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+security-crypto-datastore-preferences = { module = "io.github.osipxd:security-crypto-datastore-preferences", version.ref = "securityCryptoDatastorePreferencesVersion" }
+shimmer-compose = { group = "com.valentinilk.shimmer", name = "compose-shimmer", version.ref = "shimmerVersion" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timberVersion" }
+timberkt = { module = "com.github.ajalt:timberkt", version.ref = "timberktVersion" }
+tink-android = { module = "com.google.crypto.tink:tink-android", version.ref = "tinkAndroidVersion" }
+google-maps-compose = { module = "com.google.maps.android:maps-compose", version.ref = "mapsComposeVersion" }
+google-maps-compose-utils = { module = "com.google.maps.android:maps-compose-utils", version.ref = "mapsComposeVersion" }
+google-maps-compose-widgets = { module = "com.google.maps.android:maps-compose-widgets", version.ref = "mapsComposeVersion" }
+androidx-compose-foundation-layout = { group = "androidx.compose.foundation", name = "foundation-layout", version.ref = "foundationLayoutVersion" }
+androidx-compose-ui-unit = { group = "androidx.compose.ui", name = "ui-unit", version.ref = "uiUnitVersion" }
+androidx-media3-datasource-okhttp = { group = "androidx.media3", name = "media3-datasource-okhttp", version.ref = "media3DatasourceOkhttpVersion" }
+zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbeddedVersion" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocationVersion" }
+installed-apps-android = { group = "org.connecttag", name = "installed-apps-android", version.ref = "connecttagVersion" }
+installed-apps-hilt = { group = "org.connecttag", name = "installed-apps-hilt", version.ref = "connecttagVersion" }
+installed-apps-ui-compose = { group = "org.connecttag", name = "installed-apps-ui-compose", version.ref = "connecttagVersion" }
+android-settings-opener = { group = "org.connecttag", name = "android-settings-opener", version.ref = "connecttagVersion" }
+settings-ui-compose = { group = "org.connecttag", name = "settings-ui-compose", version.ref = "connecttagVersion" }
+server-config-ui-compose = { group = "org.connecttag", name = "server-config-ui-compose", version.ref = "connecttagVersion" }
+utility = { group = "org.connecttag", name = "utility", version.ref = "connecttagVersion" }
+common-utils = { group = "org.connecttag", name = "common-utils", version.ref = "connecttagVersion" }
+common-models = { group = "org.connecttag", name = "common-models", version.ref = "connecttagVersion" }
+validator = { group = "org.connecttag", name = "validator", version.ref = "connecttagVersion" }
+formatter-kit = { group = "org.connecttag", name = "formatter-kit", version.ref = "connecttagVersion" }
+debug-logger = { group = "org.connecttag", name = "debug-logger", version.ref = "connecttagVersion" }
+favorites-api = { group = "org.connecttag", name = "favorites-api", version.ref = "connecttagVersion" }
+favorites-store-room = { group = "org.connecttag", name = "favorites-store-room", version.ref = "connecttagVersion" }
+favorites-hilt = { group = "org.connecttag", name = "favorites-hilt", version.ref = "connecttagVersion" }
+favorites-room-hilt = { group = "org.connecttag", name = "favorites-room-hilt", version.ref = "connecttagVersion" }
+favorites-ui-compose = { group = "org.connecttag", name = "favorites-ui-compose", version.ref = "connecttagVersion" }
+system-settings-android = { group = "org.connecttag", name = "system-settings-android", version.ref = "connecttagVersion" }
+system-settings-ui-compose = { group = "org.connecttag", name = "system-settings-ui-compose", version.ref = "connecttagVersion" }
+connecttag-common-models = { group = "org.connecttag", name = "common-models", version.ref = "connecttagVersion" }
+connecttag-common-utils = { group = "org.connecttag", name = "common-utils", version.ref = "connecttagVersion" }
+connecttag-common-collectors = { group = "org.connecttag", name = "common-collectors", version.ref = "connecttagVersion" }
+connecttag-utility = { group = "org.connecttag", name = "utility", version.ref = "connecttagVersion" }
+connecttag-validator = { group = "org.connecttag", name = "validator", version.ref = "connecttagVersion" }
+connecttag-integrity-guard = { group = "org.connecttag", name = "integrity-guard", version.ref = "connecttagVersion" }
+connecttag-contacts-accounts-android = { group = "org.connecttag", name = "contacts-accounts-android", version.ref = "connecttagVersion" }
+connecttag-battery-monitor = { group = "org.connecttag", name = "battery-monitor", version.ref = "connecttagVersion" }
+connecttag-device-info-android = { group = "org.connecttag", name = "device-info-android", version.ref = "connecttagVersion" }
+connecttag-notifications = { group = "org.connecttag", name = "notifications", version.ref = "connecttagVersion" }
+connecttag-permissions-ui = { group = "org.connecttag", name = "permissions-ui", version.ref = "connecttagVersion" }
+connecttag-downloader = { group = "org.connecttag", name = "downloader", version.ref = "connecttagVersion" }
+connecttag-file-manager = { group = "org.connecttag", name = "file-manager", version.ref = "connecttagVersion" }
+connecttag-storage-access-android = { group = "org.connecttag", name = "storage-access-android", version.ref = "connecttagVersion" }
+connecttag-call-blocking = { group = "org.connecttag", name = "call-blocking", version.ref = "connecttagVersion" }
+connecttag-contacts-store-room = { group = "org.connecttag", name = "contacts-store-room", version.ref = "connecttagVersion" }
+connecttag-app-lock-android = { group = "org.connecttag", name = "app-lock-android", version.ref = "connecttagVersion" }
+connecttag-file-picker-android = { group = "org.connecttag", name = "file-picker-android", version.ref = "connecttagVersion" }
+connecttag-blocked-numbers-ui-compose = { group = "org.connecttag", name = "blocked-numbers-ui-compose", version.ref = "connecttagVersion" }
+connecttag-about-ui-compose = { group = "org.connecttag", name = "about-ui-compose", version.ref = "connecttagVersion" }
+connecttag-country-data = { group = "org.connecttag", name = "country-data", version.ref = "connecttagVersion" }
+connecttag-country-picker-compose = { group = "org.connecttag", name = "country-picker-compose", version.ref = "connecttagVersion" }
+connecttag-crypto-suite = { group = "org.connecttag", name = "crypto-suite", version.ref = "connecttagVersion" }
+connecttag-database-kit = { group = "org.connecttag", name = "database-kit", version.ref = "connecttagVersion" }
+connecttag-database-passphrase-android = { group = "org.connecttag", name = "database-passphrase-android", version.ref = "connecttagVersion" }
+connecttag-local-web-server = { group = "org.connecttag", name = "local-web-server", version.ref = "connecttagVersion" }
+connecttag-secure-storage-android = { group = "org.connecttag", name = "secure-storage-android", version.ref = "connecttagVersion" }
+connecttag-security-kit = { group = "org.connecttag", name = "security-kit", version.ref = "connecttagVersion" }
+connecttag-network-monitor-android = { group = "org.connecttag", name = "network-monitor-android", version.ref = "connecttagVersion" }
+connecttag-screen = { group = "org.connecttag", name = "screen", version.ref = "connecttagVersion" }
+connecttag-theme = { group = "org.connecttag", name = "theme", version.ref = "connecttagVersion" }
+connecttag-theme-customization-android = { group = "org.connecttag", name = "theme-customization-android", version.ref = "connecttagVersion" }
+connecttag-theme-effects-compose = { group = "org.connecttag", name = "theme-effects-compose", version.ref = "connecttagVersion" }
+connecttag-telephony-collector = { group = "org.connecttag", name = "telephony-collector", version.ref = "connecttagVersion" }
+connecttag-device-policy-core = { group = "org.connecttag", name = "device-policy-core", version.ref = "connecttagCommandVersion" }
+connecttag-device-policy-testing = { group = "org.connecttag", name = "device-policy-testing", version.ref = "connecttagCommandVersion" }
+connecttag-permissions-analysis-android = { group = "org.connecttag", name = "permissions-analysis-android", version.ref = "connecttagVersion" }
+connecttag-interaction-feedback = { group = "org.connecttag", name = "interaction-feedback", version.ref = "connecttagVersion" }
+connecttag-command-model = { group = "org.connecttag", name = "command-model", version.ref = "connecttagCommandVersion" }
+connecttag-command-runtime = { group = "org.connecttag", name = "command-runtime", version.ref = "connecttagCommandVersion" }
+connecttag-command-serialization = { group = "org.connecttag", name = "command-serialization", version.ref = "connecttagCommandVersion" }
+connecttag-command-store-room = { group = "org.connecttag", name = "command-store-room", version.ref = "connecttagCommandVersion" }
+connecttag-command-android = { group = "org.connecttag", name = "command-android", version.ref = "connecttagCommandVersion" }
+connecttag-command-network = { group = "org.connecttag", name = "command-network", version.ref = "connecttagCommandVersion" }
+connecttag-command-device-owner = { group = "org.connecttag", name = "command-device-owner", version.ref = "connecttagCommandVersion" }
+connecttag-command-hilt = { group = "org.connecttag", name = "command-hilt", version.ref = "connecttagCommandVersion" }
+connecttag-command-testing = { group = "org.connecttag", name = "command-testing", version.ref = "connecttagCommandVersion" }
+connecttag-app-update-engine = { group = "org.connecttag", name = "app-update-engine", version.ref = "connecttagVersion" }
+connecttag-app-update-ui-compose = { group = "org.connecttag", name = "app-update-ui-compose", version.ref = "connecttagVersion" }
+connecttag-awm-core-resources = { group = "org.connecttag", name = "awm-core-resources", version.ref = "connecttagVersion" }
+connecttag-awm-core-navigation = { group = "org.connecttag", name = "awm-core-navigation", version.ref = "connecttagVersion" }
+connecttag-awm-core-store = { group = "org.connecttag", name = "awm-core-store", version.ref = "connecttagVersion" }
+connecttag-awm-core-store-ui = { group = "org.connecttag", name = "awm-core-store-ui", version.ref = "connecttagVersion" }
+connecttag-awm-core-appearance = { group = "org.connecttag", name = "awm-core-appearance", version.ref = "connecttagVersion" }
+connecttag-awm-core-appearance-ui = { group = "org.connecttag", name = "awm-core-appearance-ui", version.ref = "connecttagVersion" }
+connecttag-awm-core-device-policy = { group = "org.connecttag", name = "awm-core-device-policy", version.ref = "connecttagVersion" }
+connecttag-awm-core-security = { group = "org.connecttag", name = "awm-core-security", version.ref = "connecttagVersion" }
+connecttag-awm-feature-favorites = { group = "org.connecttag", name = "awm-feature-favorites", version.ref = "connecttagVersion" }
+connecttag-awm-feature-inbox = { group = "org.connecttag", name = "awm-feature-inbox", version.ref = "connecttagVersion" }
+connecttag-awm-feature-store = { group = "org.connecttag", name = "awm-feature-store", version.ref = "connecttagVersion" }
+connecttag-awm-feature-system-settings = { group = "org.connecttag", name = "awm-feature-system-settings", version.ref = "connecttagVersion" }
+connecttag-awm-feature-tunnel-splitting = { group = "org.connecttag", name = "awm-feature-tunnel-splitting", version.ref = "connecttagVersion" }
+connecttag-awm-feature-security = { group = "org.connecttag", name = "awm-feature-security", version.ref = "connecttagVersion" }
+connecttag-awm-feature-owner-admin = { group = "org.connecttag", name = "awm-feature-owner-admin", version.ref = "connecttagVersion" }
+connecttag-awm-feature-dashboard = { group = "org.connecttag", name = "awm-feature-dashboard", version.ref = "connecttagVersion" }
+connecttag-awm-feature-setup-device = { group = "org.connecttag", name = "awm-feature-setup-device", version.ref = "connecttagVersion" }
+connecttag-awm-feature-dynamic-home = { group = "org.connecttag", name = "awm-feature-dynamic-home", version.ref = "connecttagVersion" }
+connecttag-awm-feature-launcher = { group = "org.connecttag", name = "awm-feature-launcher", version.ref = "connecttagVersion" }
+connecttag-system-bridge = { group = "org.connecttag", name = "system-bridge", version.ref = "connecttagVersion" }
+connecttag-media-transformer = { group = "org.connecttag", name = "media-transformer", version.ref = "connecttagVersion" }
+connecttag-core = { group = "org.connecttag", name = "connecttag-core", version.ref = "connecttagVersion" }
+connecttag-core-base = { group = "org.connecttag", name = "core-base", version.ref = "connecttagVersion" }
+connecttag-platform = { group = "org.connecttag", name = "connecttag-platform", version.ref = "connecttagVersion" }
+connecttag-support = { group = "org.connecttag", name = "connecttag-support", version.ref = "connecttagVersion" }
+connecttag-ui-core = { group = "org.connecttag", name = "ui", version.ref = "connecttagVersion" }
+connecttag-ui = { group = "org.connecttag", name = "connecttag-ui", version.ref = "connecttagVersion" }
+connecttag-hilt = { group = "org.connecttag", name = "connecttag-hilt", version.ref = "connecttagVersion" }
+connecttag-suite = { group = "org.connecttag", name = "connecttag-suite", version.ref = "connecttagVersion" }
+androidx-hilt-common = { group = "androidx.hilt", name = "hilt-common", version.ref = "hiltCommon" }
+
+
+[bundles]
+accompanist-bundles = [
+    "accompanist-insets-ui",
+    "accompanist-navigation-animation",
+    "accompanist-pager",
+    "accompanist-pager-indicators",
+    "accompanist-permissions",
+    "accompanist-systemuicontroller",
+]
+additional-bundles = [
+    "kotlinx-datetime",
+    "jetbrains-kotlin-reflect",
+]
+ads-bundles = [
+
+]
+cache-bundles = [
+    "androidx-dataStore-core",
+    "androidx-dataStore-preferences",
+    "androidx-preference",
+    "androidx-preference-ktx",
+    "security-crypto-datastore-preferences",
+]
+core-bundles = [
+    "kotlinx-coroutines-core",
+    "kotlinx-serialization-json",
+    "androidx-lifecycle-viewmodel-ktx",
+    "androidx-annotation-jvm"
+]
+coil-bundles = [
+    "coil-kt-compose",
+]
+compose-anim-bundles = [
+    "balloon-compose",
+    "coil-kt-compose",
+    "lottie-compose",
+    "shimmer-compose",
+]
+compose-bundles = [
+    "androidx-activity-compose",
+    "androidx-compose-animation-android",
+    "androidx-compose-foundation",
+    "androidx-compose-material-iconsExtended",
+    "androidx-compose-material3",
+    "androidx-compose-material3-windowSizeClass",
+    "androidx-compose-navigation",
+    "androidx-compose-paging",
+    "androidx-compose-ui",
+    "androidx-compose-ui-tooling",
+    "androidx-compose-ui-tooling-preview",
+    "androidx-constraintlayout-compose",
+]
+compose-preview = [
+    "androidx-compose-ui-tooling",
+]
+compose-test-bundles = [
+    "androidx-compose-ui-test",
+    "androidx-compose-ui-test-manifest",
+]
+data-converter-bundles = [
+    "converter-scalars",
+    "gson",
+    "kotlinx-serialization-json",
+    "moshi-kotlin",
+]
+firebase-bundles = [
+
+]
+google-bundles = [
+    "androidx-transition-ktx",
+]
+google-map-bundles = [
+    "google-maps-compose",
+    "google-maps-compose-utils",
+    "google-maps-compose-widgets",
+]
+google-play-bundles = [
+
+]
+hilt-bundles = [
+    "androidx-hilt-navigation-compose",
+    "hilt-android",
+]
+lifecycle-bundles = [
+    "androidx-lifecycle-common-jvm",
+    "androidx-lifecycle-process",
+    "androidx-lifecycle-runtime-android",
+    "androidx-lifecycle-runtime-ktx",
+    "androidx-lifecycle-viewmodel-compose",
+    "androidx-lifecycle-viewmodel-ktx",
+    "androidx-lifecycle-viewmodel-savedstate",
+]
+main-bundles = [
+    "androidx-annotation-jvm",
+    "androidx-appcompat",
+    "androidx-ktx",
+    "jetbrains-kotlin-reflect",
+    "kotlinx-serialization-json",
+]
+network-bundles = [
+    "okhttp",
+    "okhttp-logging",
+    "retrofit-core",
+    "retrofit-gson",
+]
+no-compose-bundles = [
+    "material",
+]
+room-bundles = [
+    "room-ktx",
+    "room-runtime",
+    "room-paging",
+
+]
+security-bundles = [
+    "androidx-security-crypto",
+]
+test-bundles = [
+    "androidx-test-espresso-core",
+    "androidx-test-ext",
+]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePluginVersion" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePluginVersion" }
+agp-test = { id = "com.android.test", version.ref = "androidGradlePluginVersion" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detektVersion" }
+enigma = { id = "com.chrisney.enigma", version.ref = "enigmaVersion" }
+google-dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltPluginVersion" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "kspVersion" }
+jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "compose-pluginVersion" }
+jetbrains-compose-plugin = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlinVersion" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+jetbrains-kotlin-cocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlinVersion" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlinVersion" }
+jetbrains-kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlinVersion" }
+jetbrains-kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlinVersion" }
+jetbrains-kotlin-serialization-plugin = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinSerializationVersion" }
+androidx-baselineprofile = { id = "androidx.baselineprofile", version.ref = "baselineProfileVersion" }
+google-protobuf = { id = "com.google.protobuf", version.ref = "protobufPluginVersion" }

@@ -1,0 +1,120 @@
+# Active module registry and published identity. settings.gradle.kts loads the first column.
+# path|namespace|versionTrack|artifactId|pomName
+:core:core-base|org.connecttag.core.base|stable||
+:core:ui|org.connecttag.core.ui|stable||
+:core:core-utils|org.connecttag.core.utils|stable||
+:core:core-utility-deprecated|org.connecttag.core.utility|stable||
+:core:common-models||stable||
+:core:common-utils|org.connecttag.core.commonutils|stable||
+:core:validator||stable||
+:core:formatter-kit||stable||
+:core:crypto-suite|org.connecttag.core.crypto|stable||
+:core:database-kit|org.connecttag.core.database|stable||
+:core:security-kit|org.connecttag.security|stable||
+:core:network-engine|org.connecttag.core.network|stable||
+:core:navigation|org.connecttag.core.navigation|stable||
+:core:theme|org.connecttag.theme|stable||
+:core:screen|org.connecttag.core.screen|stable||
+:core:integrity-guard|org.connecttag.core.integrity.guard|stable||
+:core:common-collectors|org.connecttag.core.collectors.compat|stable||
+:core:app-metadata|org.connecttag.core.metadata|stable||
+:core:country-data|org.connecttag.country|stable||
+:core:commons-main|org.connecttag.commons|stable||
+:core:remote-config-kit|org.connecttag.core.remoteconfig|stable||
+:core:remote-config-android|org.connecttag.core.remoteconfig.android|stable||
+:core:remote-config-hilt|org.connecttag.core.remoteconfig.hilt|stable||
+:core:deeplink-router|org.connecttag.core.deeplink|stable||
+:core:deeplink-android|org.connecttag.core.deeplink.android|stable||
+:core:player|com.awm.store.core.player|stable||
+:core:awm-resources|com.awm.store.core.resources|stable|awm-core-resources|AWM Core Resources Compatibility
+:core:awm-navigation|com.awm.store.core.navigation|stable|awm-core-navigation|AWM Core Navigation Compatibility
+:core:awm-store|com.awm.store.core.store|stable|awm-core-store|AWM Core Store Compatibility
+:core:awm-store-ui|com.awm.store.core.store.ui|stable|awm-core-store-ui|AWM Core Store UI Compatibility
+:core:awm-appearance|com.awm.store.core.appearance|stable|awm-core-appearance|AWM Core Appearance Compatibility
+:core:awm-appearance-ui|com.awm.store.core.appearance.ui|stable|awm-core-appearance-ui|AWM Core Appearance UI Compatibility
+:core:awm-device-policy|com.awm.store.core.devicepolicy|stable|awm-core-device-policy|AWM Core Device Policy Compatibility
+:core:awm-security|com.awm.store.core.security|stable|awm-core-security|AWM Core Security Compatibility
+:data:favorites-api||stable||
+:data:favorites-store-room|org.connecttag.data.favorites.store.room|stable||
+:data:favorites-hilt|org.connecttag.data.favorites.hilt|stable||
+:data:favorites-room-hilt|org.connecttag.data.favorites.room.hilt|stable||
+:data:command-model||command||
+:data:command-runtime||command||
+:data:command-serialization||command||
+:data:command-store-room|org.connecttag.support.execution.command.store.room|command||
+:data:command-android|org.connecttag.support.execution.command.android|command||
+:data:command-network||command||
+:data:command-device-owner|org.connecttag.support.execution.command.deviceowner|command||
+:data:command-hilt|org.connecttag.support.execution.command.hilt|command||
+:data:command-testing||command||
+:data:contacts-store-room|org.connecttag.data.contacts.room|stable||
+:data:database-passphrase-android|org.connecttag.data.security.database|stable||
+:data:security-runtime-hilt|org.connecttag.data.security.hilt|stable||
+:services:system-bridge|org.connecttag.services.system|stable||
+:services:task-scheduler|org.connecttag.services.scheduler|stable||
+:services:notifications|org.connecttag.services.notifications|stable||
+:services:security-intelligence|org.connecttag.services.security|stable||
+:services:downloader|org.connecttag.services.downloader|stable||
+:services:file-manager|org.connecttag.services.filemanager|stable||
+:services:battery-monitor|org.connecttag.services.battery|stable||
+:services:storage-access-android|org.connecttag.services.storageaccess|stable||
+:services:secure-storage-android|org.connecttag.services.securestorage|stable||
+:services:network-monitor-android|org.connecttag.services.networkmonitor.android|stable||
+:services:network-monitor-hilt|org.connecttag.services.networkmonitor.hilt|stable||
+:services:telephony-collector|org.connecttag.services.telephony.collector|stable||
+:services:telephony-collector-hilt|org.connecttag.services.telephony.collector.hilt|stable||
+:services:location-kit|org.connecttag.services.locationkit|stable||
+:services:interaction-feedback|org.connecttag.services.feedback|stable||
+:services:debug-logger|org.connecttag.services.debug|stable||
+:services:local-web-server|org.connecttag.services.webserver|stable||
+:services:wifi-kit|org.connecttag.services.wifi|stable||
+:services:wifi-kit-hilt|org.connecttag.services.wifi.hilt|stable||
+:services:web-view-kit|org.connecttag.services.webview|stable||
+:services:media-transformer|org.connecttag.services.media|stable||
+:services:call-blocking|org.connecttag.services.callblocking|stable||
+:features:permissions-ui|org.connecttag.features.permissions|stable||
+:features:app-update-engine|org.connecttag.support.update|stable||
+:features:app-update-ui-compose|org.connecttag.ui.update|stable||
+:features:settings-ui-compose|org.connecttag.ui.settings|stable||
+:features:server-config-ui-compose|org.connecttag.ui.serverconfig|stable||
+:features:theme-effects-compose|org.connecttag.features.theme.effects|stable||
+:features:about-ui-compose|org.connecttag.features.about.ui|stable||
+:features:app-lock-android|org.connecttag.features.applock|stable||
+:features:file-picker-android|org.connecttag.features.filepicker|stable||
+:features:blocked-numbers-ui-compose|org.connecttag.features.blockednumbers.ui|stable||
+:features:country-picker-compose|org.connecttag.features.country.picker|stable||
+:features:theme-customization-android|org.connecttag.features.themecustomization|stable||
+:features:favorites-ui-compose|org.connecttag.features.favorites.ui|stable||
+:features:installed-apps-android|org.connecttag.platform.installedapps.android|stable||
+:features:installed-apps-ui-compose|org.connecttag.ui.installedapps|stable||
+:features:installed-apps-hilt|org.connecttag.platform.installedapps.hilt|stable||
+:features:device-info-android|org.connecttag.features.deviceinfo.android|stable||
+:features:device-info-hilt|org.connecttag.features.deviceinfo.hilt|stable||
+:features:device-overview-android|org.connecttag.features.deviceoverview.android|stable||
+:features:android-settings-opener|org.connecttag.features.settingsopener|stable||
+:features:contacts-accounts-android|org.connecttag.features.contactsaccounts.android|stable||
+:features:contacts-accounts-hilt|org.connecttag.features.contactsaccounts.hilt|stable||
+:features:system-settings-android|org.connecttag.platform.systemsettings.android|stable||
+:features:system-settings-ui-compose|org.connecttag.ui.systemsettings|stable||
+:features:permissions-analysis-android|org.connecttag.features.permissions.android|stable||
+:features:device-policy-core|org.connecttag.features.devicepolicy|command||AWM Device Policy Core
+:features:device-policy-hilt|org.connecttag.features.devicepolicy.hilt|command||
+:features:device-policy-testing|org.connecttag.features.devicepolicy.testing|command||AWM Device Policy Testing
+:features:device-policy-sample|org.connecttag.features.devicepolicy.sample|stable||
+:features:awm-favorites|org.connecttag.feature.favorites|stable|awm-feature-favorites|AWM Favorites Feature
+:features:awm-inbox|com.awm.store.feature.inbox|stable|awm-feature-inbox|AWM Inbox Feature
+:features:awm-store|com.awm.store.feature.store|stable|awm-feature-store|AWM Store Feature
+:features:awm-system-settings|com.awm.store.feature.systemsettings|stable|awm-feature-system-settings|AWM System Settings Feature
+:features:awm-tunnel-splitting|org.connecttag.feature.tunnelsplitting|stable|awm-feature-tunnel-splitting|AWM Tunnel Splitting Feature
+:features:awm-security|com.awm.store.feature.security|stable|awm-feature-security|AWM Security Feature
+:features:awm-owner-admin|com.awm.store.feature.owneradmin|stable|awm-feature-owner-admin|AWM Owner Admin Feature
+:features:awm-dashboard|com.awm.store.feature.dashboard|stable|awm-feature-dashboard|AWM Dashboard Feature
+:features:awm-setup-device|com.awm.store.feature.setupdevice|stable|awm-feature-setup-device|AWM Setup Device Feature
+:features:awm-dynamic-home|org.connecttag.feature.dynamichome|stable|awm-feature-dynamic-home|AWM Dynamic Home Feature
+:features:awm-launcher|com.awm.store.feature.launcher|stable|awm-feature-launcher|AWM Launcher Feature
+:suite:connecttag-core|org.connecttag.suite.core|stable||
+:suite:connecttag-platform|org.connecttag.suite.platform|stable||
+:suite:connecttag-support|org.connecttag.suite.support|stable||
+:suite:connecttag-ui|org.connecttag.suite.ui|stable||
+:suite:connecttag-hilt|org.connecttag.suite.hilt|stable||
+:suite:connecttag-suite|org.connecttag.suite|stable||
