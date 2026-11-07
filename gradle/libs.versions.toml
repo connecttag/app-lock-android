@@ -3,11 +3,11 @@
 aqeldevkotlinVersion = "1.0.1"
 coreVersion = "3.5.4"
 disklrucacheVersion = "2.0.2"
-kotlinVersion = "2.3.21"
+kotlinVersion = "2.4.21"
 kotlinCompilerExtensionVersion = "1.5.15"
-kotlinReflectVersion = "2.3.21"
-kotlinSerializationVersion = "2.3.21"
-kotlinxCollectionsImmutableVersion = "0.4.0"
+kotlinReflectVersion = "2.4.21"
+kotlinSerializationVersion = "2.4.21"
+kotlinxCollectionsImmutableVersion = "0.5.2"
 kotlinxCoroutinesAndroidVersion = "1.11.0"
 kotlinxCoroutinesCoreVersion = "1.11.0"
 kotlinxCoroutinesTestVersion = "1.11.0"
@@ -15,29 +15,29 @@ kotlinxDatetimeVersion = "0.8.0"
 kotlinxSerializationJsonVersion = "1.11.0"
 
 # KSP
-kspVersion = "2.3.7"
+kspVersion = "2.3.12"
 
 # Detekt
 detektVersion = "1.23.8"
 
 # Room
-lifecycleLivedataKtxVersion = "2.10.0"
-lifecycleServiceVersion = "2.10.0"
-media3ExoplayerVersion = "1.10.1"
-media3UiVersion = "1.10.1"
-mockkVersion = "1.14.9"
+lifecycleLivedataKtxVersion = "2.11.0"
+lifecycleServiceVersion = "2.11.0"
+media3ExoplayerVersion = "1.11.1"
+media3UiVersion = "1.11.1"
+mockkVersion = "1.14.11"
 moshiVersion = "1.15.2"
 multidexVersion = "2.0.1"
-roomVersion = "2.8.4"
+roomVersion = "2.8.5"
 
 # Gradle
-androidGradlePluginVersion = "9.2.1"
-gradlePlugins-agpVersion = "8.7.1"
+androidGradlePluginVersion = "9.4.1"
+gradlePlugins-agpVersion = "9.4.1"
 
 # Build
 app-build-compileSDKVersion = "37"
-app-build-javaVersion = "VERSION_17"
-app-build-kotlinJVMTarget = "17"
+app-build-javaVersion = "VERSION_21"
+app-build-kotlinJVMTarget = "21"
 app-build-minimumSDK = "24"
 app-build-targetSDK = "37"
 
@@ -52,80 +52,80 @@ accompanistNavigationAnimationVersion = "0.36.0"
 accompanistPagerVersion = "0.36.0"
 accompanistSystemuicontrollerVersion = "0.36.0"
 adapterRxjava2Version = "3.0.0"
-animationAndroidVersion = "1.8.2"
+animationAndroidVersion = "1.12.1"
 androidActivityKtxVersion = "1.13.0"
 androidDesugarJdkLibsVersion = "2.1.5"
-androidAppCompatVersion = "1.7.1"
-androidConstraintLayoutComposeVersion = "1.1.1"
+androidAppCompatVersion = "1.8.0"
+androidConstraintLayoutComposeVersion = "1.1.2"
 androidDatabaseSqlcipherVersion = "4.6.1"
-annotationJvmVersion = "1.10.0"
+annotationJvmVersion = "1.11.0"
 appUpdateKtxVersion = "2.1.0"
-androidxComposeBomVersion = "2026.05.01"
+androidxComposeBomVersion = "2026.09.00"
 androidxComposeMaterial3Version = "1.4.0"
-androidxCoreVersion = "1.18.0"
+androidxCoreVersion = "1.19.1"
 androidxCoreSplashscreenVersion = "1.2.0"
 androidxDataStoreVersion = "1.2.1"
 androidxEspressoVersion = "3.7.0"
-androidxLifecycleVersion = "2.10.0"
-androidxPagingVersion = "3.5.0"
+androidxLifecycleVersion = "2.11.0"
+androidxPagingVersion = "3.5.3"
 androidxTestExtVersion = "1.3.0"
-androidxTracingVersion = "1.3.0"
-androidxTransitionVersion = "1.7.0"
-glanceVersion = "1.1.1"
+androidxTracingVersion = "2.0.4"
+androidxTransitionVersion = "1.7.2"
+glanceVersion = "1.2.0"
 androidx-customViewVersion = "1.2.0"
 androidx-customViewPoolingVersion = "1.1.0"
 androidxVectorDrawableVersion = "1.2.0"
 balloonComposeVersion = "1.7.6"
 biometricVersion = "1.2.0-alpha05"
 chuckerVersion = "4.3.1"
-coilVersion = "3.4.0"
+coilVersion = "3.6.3"
 coilComposeVersion = "2.7.0"
-compose-pluginVersion = "1.11.0"
+compose-pluginVersion = "1.12.2"
 datastorePreferencesVersion = "1.1.0-alpha07"
 datastorePreferencesCoreVersion = "1.2.1"
-protobufVersion = "4.35.0"
+protobufVersion = "4.36.2"
 protobufPluginVersion = "0.10.0"
 enigmaVersion = "1.0.0.8"
-foundationAndroidVersion = "1.11.2"
+foundationAndroidVersion = "1.12.1"
 gsonVersion = "2.14.0"
-hiltVersion = "2.59.2"
-hiltAndroidxVersion = "1.3.0"
-hiltCommonVersion = "1.3.0"
-hiltNavigationComposeVersion = "1.3.0"
-hiltPluginVersion = "2.59.2"
+hiltVersion = "2.60.1"
+hiltAndroidxVersion = "1.4.0"
+hiltCommonVersion = "1.4.0"
+hiltNavigationComposeVersion = "1.4.0"
+hiltPluginVersion = "2.60.1"
 junit4Version = "4.13.2"
 leakcanaryAndroidVersion = "2.14"
-lifecycleCommonJvmVersion = "2.10.0"
-lifecycleProcessVersion = "2.10.0"
-lifecycleRuntimeAndroidVersion = "2.10.0"
+lifecycleCommonJvmVersion = "2.11.0"
+lifecycleProcessVersion = "2.11.0"
+lifecycleRuntimeAndroidVersion = "2.11.0"
 libphonenumberVersion = "9.0.2"
 lottieVersion = "6.7.1"
-mapsComposeVersion = "8.3.0"
-materialVersion = "1.13.0"
+mapsComposeVersion = "9.0.1"
+materialVersion = "1.14.0"
 material3Version = "1.4.0"
 moshiKotlinVersion = "1.15.2"
 nanohttpdVer = "2.3.1"
-navigationComposeVersion = "2.9.8"
-okhttpVersion = "5.3.2"
-okioVersion = "3.17.0"
+navigationComposeVersion = "2.10.2"
+okhttpVersion = "5.5.0"
+okioVersion = "3.18.2"
 onesignalVersion = "5.1.35"
 picassoVersion = "2.8"
 preferenceKtxVersion = "1.2.1"
 retrofitVersion = "3.0.0"
 reviewKtxVersion = "2.0.2"
-runtimeAndroidVersion = "1.11.2"
+runtimeAndroidVersion = "1.12.1"
 securityCryptoVersion = "1.1.0"
 securityCryptoDatastorePreferencesVersion = "1.1.1-beta03"
 paletteVersion = "1.0.0"
-shimmerVersion = "1.4.0"
-sqliteKtxVersion = "2.6.2"
+shimmerVersion = "1.5.0"
+sqliteKtxVersion = "2.7.1"
 timberVersion = "5.0.1"
 timberktVersion = "1.5.1"
-tinkAndroidVersion = "1.21.0"
-uiVersion = "1.11.2"
+tinkAndroidVersion = "1.24.0"
+uiVersion = "1.12.1"
 uiIconsVersion = "1.7.8"
 uiTextGoogleFontsVersion = "1.8.3"
-workRuntimeKtxVersion = "2.11.2"
+workRuntimeKtxVersion = "2.12.0"
 baselineProfileVersion = "1.5.0-alpha06"
 commonsIoVersion = "2.22.0"
 documentfileVersion = "1.1.0"
@@ -133,7 +133,7 @@ ezVcardVersion = "0.12.2"
 exifinterfaceVersion = "1.4.2"
 glideComposeVersion = "1.0.0-beta09"
 glideVersion = "5.0.7"
-jodaTimeVersion = "2.14.2"
+jodaTimeVersion = "2.15.0"
 patternLockViewVersion = "a90b0d4bf0"
 recyclerviewFastScrollerVersion = "5a95285b1f"
 reprintVersion = "2cb206415d"
@@ -145,12 +145,12 @@ adcolonySdkVersion = "4.8.0"
 facebookAdsVersion = "6.20.0.0"
 googleServicesVersion = "4.4.3"
 playServicesAdsVersion = "24.4.0"
-playServicesLocationVersion = "21.3.0"
-foundationLayoutVersion = "1.11.2"
-uiUnitVersion = "1.11.2"
-media3DatasourceOkhttpVersion = "1.10.1"
+playServicesLocationVersion = "21.4.0"
+foundationLayoutVersion = "1.12.1"
+uiUnitVersion = "1.12.1"
+media3DatasourceOkhttpVersion = "1.11.1"
 zxingAndroidEmbeddedVersion = "4.3.0"
-hiltCommon = "1.3.0"
+hiltCommon = "1.4.0"
 connecttagVersion = "1.0.0"
 connecttagCommandVersion = "0.1.0"
 
@@ -176,7 +176,7 @@ androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "b
 androidx-compose-activity = { group = "androidx.activity", name = "activity-compose", version = "1.13.0" }
 
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version = "1.13.0" }
-androidx-compose-animation-android = { group = "androidx.compose.animation", name = "animation-android", version = "1.10.5" }
+androidx-compose-animation-android = { group = "androidx.compose.animation", name = "animation-android", version = "1.12.1" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBomVersion" }
 androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "uiVersion" }
 androidx-compose-material = { group = "androidx.compose.material", name = "material", version.ref = "uiIconsVersion" }
@@ -189,11 +189,11 @@ androidx-compose-paging = { group = "androidx.paging", name = "paging-compose", 
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "uiVersion" }
 androidx-compose-ui-gestures = { group = "androidx.compose.ui", name = "ui-gestures", version = "1.0.0" }
 androidx-compose-ui-test = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "uiVersion" }
-androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version = "1.10.5" }
+androidx-compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version = "1.12.1" }
 androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
 androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
 androidx-compose-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.1" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version = "2.2.2" }
 androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "androidConstraintLayoutComposeVersion" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "androidxCoreSplashscreenVersion" }
 androidx-customView = { module = "androidx.customview:customview", version.ref = "androidx-customViewVersion" }
@@ -233,7 +233,7 @@ androidx-preference-ktx = { group = "androidx.preference", name = "preference-kt
 androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroidVersion" }
 androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCryptoVersion" }
 androidx-sqlite-framework = { module = "androidx.sqlite:sqlite-framework", version.ref = "sqliteKtxVersion" }
-androidx-sqlite-ktx = { module = "androidx.sqlite:sqlite-ktx", version = "2.6.2" }
+androidx-sqlite-ktx = { module = "androidx.sqlite:sqlite-ktx", version = "2.7.1" }
 androidx-test-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidxEspressoVersion" }
 androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "androidxTestExtVersion" }
 androidx-tracing-ktx = { group = "androidx.tracing", name = "tracing-ktx", version.ref = "androidxTracingVersion" }
@@ -245,7 +245,7 @@ androidx-glance-material3 = { group = "androidx.glance", name = "glance-material
 androidx-exifinterface = { module = "androidx.exifinterface:exifinterface", version.ref = "exifinterfaceVersion" }
 androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayoutVersion" }
 androidx-benchmark-macro = { group = "androidx.benchmark", name = "benchmark-macro-junit4", version.ref = "baselineProfileVersion" }
-androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version = "2.3.0" }
+androidx-uiautomator = { group = "androidx.test.uiautomator", name = "uiautomator", version = "2.4.0" }
 aqeldev-kotlin-ui-compose = { module = "com.github.aqeldev:kotlin-ui-compose", version.ref = "aqeldevkotlinVersion" }
 aqeldev-kotlin-utilites = { module = "com.github.aqeldev:kotlin-utilites", version.ref = "aqeldevkotlinVersion" }
 balloon-compose = { group = "com.github.skydoves", name = "balloon-compose", version.ref = "balloonComposeVersion" }
